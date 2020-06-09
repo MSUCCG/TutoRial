@@ -6,7 +6,7 @@
 ##
 
 ##
-#
+# Correlation Test and Plot
 ##
 correlation = function(x, y) {
   ##
