@@ -9,10 +9,6 @@
 ##
 
 ##
-# Correlations Tests
-##
-
-##
 #
 ##
 correlation = function(x, y) {
@@ -36,15 +32,3 @@ correlation = function(x, y) {
   print(cor_test)
   cor_plot
 }
-
-##
-#Correlations Graphs
-##
-
-# ggscatter(FoodSec1, x = 'AY_FS_Stat', y = 'AQ1',add = 'reg.line', conf.int = TRUE, cor.coef = TRUE, 
-#           xlab = 'Food Security Status', 
-#           ylab = 'Prepare Food Off Campus', 
-#           font.family = "sans",
-#           color = "red",
-#           point = F
-# )
