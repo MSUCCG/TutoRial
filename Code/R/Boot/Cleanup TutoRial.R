@@ -4,9 +4,6 @@
 # Written by Chris Snyder, MPH (Roqarr)
 # Written for the Montclair State University Campus Commuinty Garden
 ##
-# Original: 15-January-2020
-# Updated: 15-January-2020
-##
 
 ##
 # Note:
