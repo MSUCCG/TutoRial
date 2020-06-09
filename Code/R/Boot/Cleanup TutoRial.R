@@ -1,5 +1,5 @@
 ##
-# Choropleth
+# TutoRial
 ##
 # Written by Chris Snyder, MPH (Roqarr)
 # Written for the Montclair State University Campus Commuinty Garden
@@ -10,7 +10,7 @@
 
 ##
 # Note:
-# All functions prefixed wtih a '.' will be hidden in the global environment
+# All functions prefixed wtih a '.' (period) will be hidden in the global environment
 ##
 
 ##
