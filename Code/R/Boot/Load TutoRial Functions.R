@@ -20,3 +20,12 @@ source("./code/R/boot/cleanup tutorial.R")
 ##
 source("./Code/R/tutorial/TutoRial Function.R")
 writeLines(sprintf("%s LOADED: Example Function", Sys.time()))
+
+##
+# Example Statistical Tests.
+#   Note that the file paths are not case sensitive.
+##
+source("./code/r/statistics/bar charts.r")
+source("./code/r/statistics/correlations.r")
+source("./code/r/statistics/mean differences.r")
+writeLines(sprintf("%s LOADED: Example Statistical Functions", Sys.time()))

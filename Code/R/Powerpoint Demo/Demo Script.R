@@ -1,0 +1,45 @@
+##
+# Demo Time
+##
+
+##
+# Save the Existing mtcars data to a file on the computer
+##
+if (dir.exists("./Data") == F) {
+  dir.create("./Data")  
+}
+write.csv(mtcars, "./Data/mtcars.csv")
+
+##
+# Load the Saved Data
+##
+sample_data = read.csv("./Data/mtcars.csv")
+
+##
+# Load a Function that runs a correlation test
+##
+source("./Code/R/Statistics/Correlations.R")
+
+##
+# Load the Package Required for Graphing Correlation Plots
+##
+library(ggplot2)
+library(ggpubr)
+
+##
+# Run the correlation function
+#   It will perform a correlation test
+#   It will produce a correlation graph
+##
+correlation(sample_data$mpg, sample_data$am)
+
+##
+# Graph the Data
+##
+sample_data$am_text = gsub(0, "Automatic", sample_data$am)
+sample_data$am_text = gsub(1, "Manual", sample_data$am_text)
+ggplot(sample_data, aes(am_text)) + geom_bar() +
+  labs(x = "Transmission", # The X Axis Label
+       y = "Number of Cars", # The Y Axis Label
+       title = "Transmission in Cars", # The Bolded Graph Title
+       subtitle = "Automatic vs Manual Transmission in Sampled Cars")  # The Graph Subtitle

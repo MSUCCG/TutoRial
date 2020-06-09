@@ -4,12 +4,9 @@
 # Written by Chris Snyder, MPH (Roqarr)
 # Written for the Montclair State University Campus Commuinty Garden
 ##
-# Original: 06-March-2020
-# Updated: 06-March-2020
-##
 
 ##
-# This is an example function, written in R, and loaded by the 'Prepare TutoRial' script
+# This is an example Script, written in R, and loaded by the 'Prepare TutoRial' script
 # This functions 
 ##
 
