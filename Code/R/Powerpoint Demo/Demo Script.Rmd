@@ -9,6 +9,7 @@ output: pdf_document
 
 
 ## Save the Existing mtcars data to a file on the computer
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE, fig.height=4}
 ##
 # Save the Existing mtcars data to a file on the computer
